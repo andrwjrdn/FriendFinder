@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 //now we save data in friends.js
 //friends.js will be used in routes js files
 //and we need to import those routes files
-var apiroutes = require("./app/routing/apiRoutes.js");
-var htmlroutes = require("./app/routing/htmlroutes.js");
+var apiroutes = require("../app/routing/apiRoutes.js");
+var htmlroutes = require("../app/routing/htmlroutes.js");
 
 app.use(apiroutes);
 app.use(htmlroutes);
