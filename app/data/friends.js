@@ -72,4 +72,4 @@ var friends = [
   },
 ];
 
-module.exports = matches; 
+module.exports = friends; 
